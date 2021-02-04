@@ -681,7 +681,7 @@ uart_send_char(char c)
             Check the UART sample code on your platform or the board
        documentation.
     */
-  int * uart_tx_rdy = (int *) 0x80000100;
+  volatile int * uart_tx_rdy = (int *) 0x80000100;
   int * uart_tx = (int *) 0x80000104;
   while(*uart_tx_rdy != 1);
   *uart_tx = c;

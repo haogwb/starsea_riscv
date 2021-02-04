@@ -34,7 +34,7 @@ volatile ee_s32 seed2_volatile = 0x8;
 volatile ee_s32 seed3_volatile = 0x8;
 #endif
 //volatile ee_s32 seed4_volatile = ITERATIONS;
-volatile ee_s32 seed4_volatile = 401;
+volatile ee_s32 seed4_volatile = 600;
 volatile ee_s32 seed5_volatile = 0x0;
 /* Porting : Timing functions    
         How to capture time and convert to seconds must be ported to whatever is
