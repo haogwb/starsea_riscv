@@ -32,8 +32,8 @@ How to build FPGA bitfile:
    2. open vivado tcl, source syn
    
 Coremark:
-   CoreMark/Mhz = 54/50 = 1.04/Mhz
-   Current implementation only have integer instuction, if add Multiply and divide instruction, will get higher score. 
+   CoreMark/Mhz = 54/50 = 1.04/Mhz 
+   Current implementation only have integer instuction, if add Multiply and divide instruction, will get higher score.  
    ![image](https://github.com/haogwb/starsea_riscv/blob/master/etc/coremark.PNG)
    
 Future plan:
