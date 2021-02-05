@@ -31,6 +31,10 @@ How to build FPGA bitfile:
    1. vivado2019, xilinx VCU118 board   
    2. open vivado tcl, source syn
    
+Coremark:
+   ![image](https://github.com/haogwb/starsea_riscv/blob/master/coremark.GIF)
+   CoreMark/Mhz = 54/50 = 1.04/Mhz
+   Current implementation only have integer instuction, if add Multiply and divide instruction, will get higher score. 
    
 Future plan:
    1. current fpga top only has a uart tx, prepare add more preipheral--------------------> uart rx added, iterrupt added
