@@ -7,4 +7,8 @@ _start:
   or t0, t0, 0x8
   csrw mstatus, t0
   call main
+  j loop
+
+loop:
+  j loop
 
