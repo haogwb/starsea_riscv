@@ -41,7 +41,7 @@ Future plan:
    2. current iram and dram preload firmware when bitsteam building, prepare add a module to updates firmware online.
    3. code optimize
    4. area optimize
-   5. run coremark
+   5. run coremark                                   ->done
    6. update fpga syn scripts------------------------->done
 
 
