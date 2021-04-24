@@ -2,7 +2,7 @@
 
 
 #python ../../riscv-compliance-master/gen_mif.py ../../riscv-compliance-master/work/rv32i/I-MISALIGN_LDST-01.elf.objcopy
-python ../../riscv-compliance-master/gen_mif.py ../../../../coremark/starsea/test.elf.objcopy
+#python ../../riscv-compliance-master/gen_mif.py ../../../../coremark/starsea/test.elf.objcopy
 #python ../../riscv-compliance-master/gen_mif.py ../firmware_printf/test.elf.objcopy
 #python ../../riscv-compliance-master/gen_mif.py ../firmware_intr/test.elf.objcopy
 vcs  -sverilog -full64 -f ../flist \
