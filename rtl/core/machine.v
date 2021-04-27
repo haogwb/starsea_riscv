@@ -101,7 +101,7 @@ always@(posedge clk or negedge rst_n)
 
 always@(posedge clk or negedge rst_n)
     if(~rst_n) 
-        mcause <= 32'hffffffff;
+        mcause <= 32'h0;//20210406  //32'hffffffff;
     else if(system_ex & system_funct12_ex==0 &&system_funct3_ex==0)
         mcause <= 11;
     else if(system_ex & system_funct12_ex==1 &&system_funct3_ex==0)//ebreak
